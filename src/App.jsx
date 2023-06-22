@@ -11,19 +11,29 @@ import TaskDetails from "./components/TaskDetails";
 import "./App.css";
 
 const App = () => {
-	const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState([]);
 
-	useEffect(() => {
-		const fetchTasks = async () => {
-			const { data } = await axios.get(
-				"https://jsonplaceholder.cypress.io/todos?_limit=10"
-			);
+  useEffect(() => {
+    const storedTasks = localStorage.getItem("tasks");
+    if (storedTasks) {
+      setTasks(JSON.parse(storedTasks));
+    } else {
+      fetchTasks();
+    }
+  }, []);
 
-			setTasks(data);
-		};
+  useEffect(() => {
+    localStorage.setItem("tasks", JSON.stringify(tasks));
+  }, [tasks]);
 
-		fetchTasks();
-	}, []);
+  const fetchTasks = async () => {
+    const { data } = await axios.get(
+      "https://jsonplaceholder.cypress.io/todos?_limit=10"
+    );
+
+    setTasks(data);
+  };
+
 
 	const handleTaskClick = (taskId) => {
 		const newTasks = tasks.map((task) => {
