@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Tasks from './components/Tasks';
-
-function App() {
+const App = () =>{
   const [tasks, setTasks] = useState([
     { id:"1",
       title: "Estudar Programação",
@@ -12,14 +11,11 @@ function App() {
       title: "Ler livros",
       completed:true,
     },
-    
   ]);
-  return <>
+  return( <>
     <div className='container'>
-      <Tasks/>
+      <Tasks tasks={tasks}/>
     </div>
-  </>
-  
-}
-
+  </>);
+};
 export default App;
