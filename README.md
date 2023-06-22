@@ -18,7 +18,7 @@ Task, Tasks, Button, AddTask, Header e TasksDetails.
 
 - Adicionado o CSS de referência.
 
-- Adicionado a lógica do Javascript para adicioane e remover tarefas.
+- Adicionado a lógica do Javascript para adicionar e remover tarefas.
 
 - Adicionado novo layout.
 
@@ -28,6 +28,7 @@ Task, Tasks, Button, AddTask, Header e TasksDetails.
 
 - Alteração de Layout
 - Validação de input
+- Salvar os dados e recuperar no armazenamento 
 
 ### 🔧 Bugs durante o desenvolvimento:
 

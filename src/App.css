@@ -3,14 +3,15 @@
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 2px solid #f06292; /* Rosa mais claro */
+  border: 2px solid #f06292;
   padding: 30px;
   border-radius: 10px;
-  background-color: rgb(80, 80, 80); /* Tons de rosa claro */
-  color: crimson; /* Texto em branco para melhor contraste */
+  background-color: rgb(80, 80, 80); 
+  color: crimson; 
 }
-
 #root, html{
+  overflow: auto;
+  background-attachment: fixed;
 	background-color: #4158D0;
 background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
