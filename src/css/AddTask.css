@@ -31,3 +31,12 @@
 .add-task-button:hover {
   background-color: #f50057; 
 }
+
+.add-task-input.error {
+  border: 2px solid red; 
+}
+.error-message {
+  color: red; 
+  margin-top: 5px;
+	font-size: 14px;
+}
