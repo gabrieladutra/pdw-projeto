@@ -6,7 +6,7 @@ Aluno Gabriela Dias Dutra
 
 
 ## Descrição das etapas implementadas :
-
+Etapa 1: Mudança de Layout do CSS
 
 ## Alterações realizadas frente ao modelo de referência apresentado:
 
