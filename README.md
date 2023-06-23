@@ -10,6 +10,10 @@ Projeto desenvolvido para a Disciplina de Programação Dinâmica para Web(PDWA5
 
 Aluno(a): Gabriela Dias Dutra 
 <br/>E-mail Institucional: gabriela.dutra@aluno.ifsp.edu.br
+<div align="center">
+
+ <img src="https://github.com/gabrieladutra/pdw-projeto/assets/53493630/52d75d17-22dd-4812-8338-cfe7becaec75" width="200" />
+</div>
 
 ### 🚀 Descrição das etapas implementadas
 <!--  -->
@@ -23,12 +27,16 @@ Task, Tasks, Button, AddTask, Header e TasksDetails.
 - Adicionado novo layout.
 
 - Adicionado a validação de input e mensagem de erro
+  
+- Adicionado arquivo de testes
+
 
 ### 🔧 Alterações realizadas frente ao modelo de referência apresentado:
 
 - Alteração de Layout
 - Validação de input
-- Salvar os dados e recuperar no armazenamento 
+- Salvar os dados e recuperar no armazenamento
+- Testes
 
 ### 🔧 Bugs durante o desenvolvimento:
 
@@ -43,11 +51,12 @@ Task, Tasks, Button, AddTask, Header e TasksDetails.
 - **React**
 - **CSS**  
 - **React Icons** 
-- **JavaScript** 
+- **JavaScript**
+- **Vercel**
 
-#### 🚀 Deploy
+### 🚀 Deploy
 
-https://gabrieladutra.github.io/pdw-projeto/
+https://pdw-projeto.vercel.app/
 
 #### 📝 Licença
 
